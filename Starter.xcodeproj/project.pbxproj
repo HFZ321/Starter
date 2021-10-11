@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		23F82687F87BA8A787952051 /* Pods_Starter_StarterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F929A624CD7B470C26F01C0 /* Pods_Starter_StarterUITests.framework */; };
 		4D679AE7F62956CE56F146DF /* Pods_StarterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79C89E4DD3F14A70AAE50D1 /* Pods_StarterTests.framework */; };
 		624D1BF4EDF882AAA045134F /* Pods_Starter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD06D82893A664127AB4C347 /* Pods_Starter.framework */; };
+		CF0B9D0827139CDF0067D825 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0B9D0727139CDF0067D825 /* CreateProfileViewController.swift */; };
 		F12A99D927135223004DE2F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A99D827135223004DE2F8 /* AppDelegate.swift */; };
 		F12A99DB27135223004DE2F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A99DA27135223004DE2F8 /* SceneDelegate.swift */; };
 		F12A99DD27135223004DE2F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12A99DC27135223004DE2F8 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		B79C89E4DD3F14A70AAE50D1 /* Pods_StarterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B958E199CBBA5A4B7962C56F /* Pods-StarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarterTests.release.xcconfig"; path = "Target Support Files/Pods-StarterTests/Pods-StarterTests.release.xcconfig"; sourceTree = "<group>"; };
 		CD06D82893A664127AB4C347 /* Pods_Starter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Starter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0B9D0727139CDF0067D825 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
 		F12A99D527135223004DE2F8 /* Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12A99D827135223004DE2F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F12A99DA27135223004DE2F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +113,6 @@
 				538B03727C8FBF3EE76EB09D /* Pods-StarterTests.debug.xcconfig */,
 				B958E199CBBA5A4B7962C56F /* Pods-StarterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -188,7 +189,9 @@
 		F12A9A0A271353C7004DE2F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F12A99E327135225004DE2F8 /* LaunchScreen.storyboard */,
 				F12A99DC27135223004DE2F8 /* ViewController.swift */,
+				CF0B9D0727139CDF0067D825 /* CreateProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				F12A99DE27135223004DE2F8 /* Main.storyboard */,
-				F12A99E327135225004DE2F8 /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -301,7 +303,7 @@
 				};
 			};
 			buildConfigurationList = F12A99D027135223004DE2F8 /* Build configuration list for PBXProject "Starter" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.5.1";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -455,6 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF0B9D0827139CDF0067D825 /* CreateProfileViewController.swift in Sources */,
 				F12A99DD27135223004DE2F8 /* ViewController.swift in Sources */,
 				F12A99D927135223004DE2F8 /* AppDelegate.swift in Sources */,
 				F12A99DB27135223004DE2F8 /* SceneDelegate.swift in Sources */,
